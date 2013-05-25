@@ -1,0 +1,116 @@
+<menu>
+	<category name="Pizzas" num="01">
+		<item name = "Tomato &amp; Cheese" sPrice="5.50" lPrice="9.75"></item>
+		<item name = "Onions" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Peppers" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Broccoli" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Fresh Garlic" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Mushrooms" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Fresh Spinach" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Anchovies" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Hamburg" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Pepperoni" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Sausage" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Meatball" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Bacon" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Ham" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Olives" sPrice="6.85" lPrice="10.85"></item>
+		<item name = "Grilled Chicken" sPrice="7.95" lPrice="11.80"></item>
+		<item name = "Hawaiian" sPrice="7.95" lPrice="11.80"></item>
+	</category>	
+	
+	<category name="Specialty Pizzas" num="02">
+		<item name = "Three Aces Special" sPrice="9.80" lPrice="15.80"></item>
+		<item name = "Mediteranean" sPrice="9.80" lPrice="15.80">
+			<description>Sliced Tomatoes, Olives, Spinach, Fresh Garlic, Mozzarella, Feta Cheese</description>
+		</item>
+		<item name = "Vegetarian" sPrice="9.80" lPrice="15.80">
+			<description>Sliced Tomatoes, Onion, Peppers, Mushrooms, Broccoli, Mozzarella</description>
+		</item>
+		<item name = "Meat Lovers" sPrice="9.80" lPrice="15.80">
+			<description>Pepperoni, Hamburg, Sausage, Bacon</description>
+		</item>	
+		<item name = "Grecian Supreme" sPrice="9.80" lPrice="15.80">
+			<description>Grilled Chicken, Feta Cheese, Tomatoes, Kalamata Olives</description>
+		</item>
+	</category>	
+	
+	<category name="Special Dinners" num="03">
+		<description>All Dinners served with French Fries and Salad.</description>
+		<item name="Chicken Wing Dinner" lPrice="7.25"></item>
+		<item name="Double-cheeseburger Plate" lPrice="5.75"></item>
+		<item name="Gyro Plate" lPrice="7.25"></item>
+		<item name="Chicken Finger Plate" lPrice="7.25"></item>
+		<item name="3 Piece Chicken Dinner" lPrice="7.25"></item>		
+	</category>
+	
+	<category name="Side Orders" num="04">
+		<item name="Onion Rings" sPrice="2.60" lPrice="2.95"></item>
+		<item name="French Fries" sPrice="2.25" lPrice="2.65"></item>
+		<item name="Spicy Fries" sPrice="2.60" lPrice="2.95"></item>
+		<item name="Chicken Wings" sPrice="N/A" lPrice="5.75"></item>		
+	</category>
+	
+	<category name="Salads" num="05">
+		<item name="Garden" sPrice="3.50" lPrice="4.50"></item>
+		<item name="Greek" sPrice="4.50" lPrice="5.50"></item>
+		<item name="Antipasto" sPrice="4.50" lPrice="5.50"></item>
+		<item name="Chef" sPrice="4.50" lPrice="5.50"></item>
+		<item name="Tuna" sPrice="4.50" lPrice="5.50"></item>
+		<item name="Grilled Chicken" sPrice="4.95" lPrice="5.95"></item>		
+	</category>
+	
+	<category name="Pasta" num="06">
+		<item name="With Sauce" sPrice="5.40" lPrice = "6.25"></item>
+		<item name="With Sausage" sPrice="6.45" lPrice="7.25"></item>		
+	</category>
+	
+	<category name="Homemade Calzones" num="07">
+		<description> All come with mushrooms, peppers, and onions.</description>
+		<item name="Vegetarian" lPrice="7.35"></item>
+		<item name="Sausage"  lPrice="7.35"></item>
+		<item name="Ham and Cheese"  lPrice="7.35"></item>
+		<item name="Chicken Cutlet"  lPrice="7.35"></item>
+		<item name="Grilled Chicken"  lPrice="7.35"></item>
+		<item name="Meatball" lPrice="7.35"></item>
+		<item name="Grecian" lPrice="7.35"></item>
+		<item name="Veal" lPrice="7.35"></item>
+		<item name="Eggplant" lPrice="7.35"></item>
+		<item name="Steak" lPrice="7.35"></item>		
+	</category>
+	
+	<category name="Wraps" num="08">
+		<item name="Turkey Club" sPrice="4.95">
+				<description>Turkey, Cheese, Lettuce, Tomato, Onion, Mayo</description>
+		</item>
+		
+		<item name="Chicken Cobb" sPrice="4.95">
+				<description>Grilled Chicken, Bacon, Cheese, Lettuce, Tomato, Onion, Honey Mustard</description>
+		</item>
+		
+		<item name="Greek Supreme" sPrice="4.95">
+				<description>Feta Cheese, Black Olives, Lettuce, Tomato, Onion, Greek Dressing</description>
+		</item>
+		
+		<item name="Crispy Chicken" sPrice="4.95">
+				<description>Chicken Finger, Lettuce, Tomato, Onion, Honey Mustard</description>
+		</item>
+		
+		<item name="Steak" sPrice="4.95"></item>
+	</category>
+	
+	<category name="Grinders" num="09">
+		<item name="Meatless" sPrice="4.50" lPrice="4.95"></item>
+		<item name="Hamburger" sPrice="4.50" lPrice="4.95"></item>
+		<item name="Cheeseburger" sPrice="4.75" lPrice="5.75"></item>
+		<item name="Meatball" sPrice="4.75" lPrice="5.75"></item>
+		<item name="Sausage" sPrice="4.75" lPrice="5.75"></item>
+		<item name="American" sPrice="4.75" lPrice="5.75"></item>
+		<item name="Veal Cutlet" sPrice="4.75" lPrice="5.75"></item>		
+		<item name="Italian" sPrice="4.75" lPrice="5.75"></item>
+		<item name="Genoa Salami" sPrice="4.75" lPrice="5.75"></item>
+		<item name="Ham" sPrice="4.75" lPrice="5.75"></item>
+		<item name="Tuna" sPrice="4.75" lPrice="5.75"></item>		
+		<item name="Sliced Turkey" sPrice="4.75" lPrice="5.75"></item>		
+	</category>
+</menu>
