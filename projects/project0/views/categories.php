@@ -1,5 +1,5 @@
 <ul>
-<?php
+<?php 
 	$xml = simplexml_load_file("../menu.xml");
 	foreach($xml->xpath('//menu/category') as $cat){
 		echo '<li>';

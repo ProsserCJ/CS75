@@ -1,12 +1,13 @@
-<?php 
+<?php
 	require_once('../includes/helpers.php'); render('templates/header'); 
 	$n = $_GET['n'];
 	$xml = simplexml_load_file("../menu.xml");
-	foreach($xml->xpath("//menu/category[@num=".$n."]") as $cat)
-		echo '<br><h2>'.$cat['name'].'</h2>';		
+	$name = (string)$xml->xpath("//menu/category[@num='".$n."']")[0]['name'];
+	foreach($xml->xpath("//menu/category[@num='".$n."']") as $cat)
+		echo '<br><h2>'.$name.'</h2>';		
 ?>
 
-<form action="cart.php">
+<form method = 'get' action="cart.php">
 <select name='choice'>
 <?php	
 	foreach($xml->xpath("//menu/category[@num=".$n."]/item") as $item){
@@ -17,6 +18,14 @@
 ?>
 </select>
 <input type="submit" value="Add to Cart" >		
-</form>
+<?php if ($name == 'Pasta'){ echo"
+<br>
+<input type='radio' name='pasta' value='Spaghetti'>Spaghetti</input>
+<input type='radio' name='pasta' value='Ziti'>Ziti</input>
+<input type='radio' name='pasta' value='Lasagna'>Lasagna</input>
+<input type='radio' name='pasta' value='Ravioli'>Ravioli</input>
+</form>";
+}
 
-<?php render('templates/footer'); ?>
+render('templates/footer'); 
+?>
